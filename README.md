@@ -1,1 +1,1 @@
-# odin-recipes
+Building a basic recipe website from scratch using Git and Github basics, links, images and lists.
