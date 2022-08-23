@@ -2,29 +2,51 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
+/* general styling */
+
+body {
+    background-color: #D8B588;
+}
 h1 {
     text-align: center;
+    font-size: 40px;
+    background-color: #8A6738;
+    color: beige;
 }
 
-ul {
+/* main page styling */
+
+#fplist {
     list-style: none;
     text-align: center;
     width: 410px;
     margin: 0 auto;
 }
 
+
 .foodimg.fp {
+    display: block;
+    margin: 0 auto;
     width: 400px;
     height: 400px;
-    margin: 0 auto;
-    display: block;
 }
 
 a {
-    font-size: 34px;
+    font-size: 20px;
     text-decoration: none;
+    color: #436413;
+}
+
+
+/* styling recipe pages */
+
+.foodimg {
+    width: 400px;
+    height: auto; 
+    
 }
 
 
