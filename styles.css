@@ -1,13 +1,43 @@
+@font-face {
+    font-family: Quicksand;
+    src: url("/home/panos/Downloads/quicksand/Quicksand-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("/home/panos/Downloads/quicksand/Quicksand-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("/home/panos/Downloads/quicksand/Quicksand-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("/home/panos/Downloads/quicksand/Quicksand-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
 * {
     box-sizing: border-box;
-    
-    
+
 }
 
 /* general styling */
 
 body {
     background-color: #D8B588;
+    margin: 0;
+    padding: 0;
+    
 }
 
 h1 {
@@ -15,6 +45,11 @@ h1 {
     font-size: 40px;
     background-color: #8A6738;
     color: beige;
+    font-family: Quicksand;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* main page styling */
@@ -39,6 +74,7 @@ a {
     font-size: 20px;
     text-decoration: none;
     color: #436413;
+    font-family: Quicksand;
 }
 
 
@@ -47,6 +83,7 @@ a {
 .food-title, .caption {
     text-align: center;
 }
+
 
 
 
